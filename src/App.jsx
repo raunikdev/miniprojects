@@ -6,6 +6,8 @@ import Proj1 from './components/images/proj1.png';
 import Proj2 from './components/images/proj2.png';
 import Proj3 from './components/images/proj3.png';
 import Proj4 from './components/images/proj4.png';
+import Proj5 from './components/images/proj5.png';
+
 
 import './App.css'
 
@@ -39,11 +41,11 @@ function App() {
           link="https://clock-one-sepia.vercel.app/"
           heading="Clock" 
           description="Nothing much just tells time"/>
-        {/* <Projects 
-          image={Proj1} 
-          link=""
-          heading="Still Working" 
-          description="In Progress..."/> */}
+        <Projects 
+          image={Proj5} 
+          link="https://staticweatherapp.vercel.app/"
+          heading="Static Weather App" 
+          description="Tells you weather from it's static database"/>
         {/* <Projects 
           image={Proj1} 
           link=""
