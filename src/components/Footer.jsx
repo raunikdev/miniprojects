@@ -5,7 +5,8 @@ const Footer=()=>{
         <footer>
             <div className="main-footer">
                 <div className="left-footer">
-                    <a href="https://raunikportfolio.vercel.app/#Home"><h2>Portfolio-Raunik</h2></a>
+                    <a href="https://raunikportfolio.vercel.app/#Home">
+                    <h2>Portfolio-Raunik</h2></a>
                     <div className="defination-wrap">
                         <p className="defination">I am a student in 3rd Year, with a cgpa of 7 in GGSIPU, East Campus. I have learned some skills like Html, Css, JavaScript and React. I am an Intern at Ampcus Tech as a Full-Stack Developer Intern.</p>
                     </div>

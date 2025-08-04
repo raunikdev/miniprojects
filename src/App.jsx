@@ -5,7 +5,7 @@ import Projects from './components/Projects.jsx';
 import Proj1 from './components/images/proj1.png';
 import Proj2 from './components/images/proj2.png';
 import Proj3 from './components/images/proj3.png';
-
+import Proj4 from './components/images/proj4.png';
 
 import './App.css'
 
@@ -34,17 +34,17 @@ function App() {
           heading="To Do List" 
           description="Helps you track down your work"/>
           
+        <Projects 
+          image={Proj4}
+          link="https://clock-one-sepia.vercel.app/"
+          heading="Clock" 
+          description="Nothing much just tells time"/>
         {/* <Projects 
           image={Proj1} 
           link=""
           heading="Still Working" 
-          description="In Progress..."/>
-        <Projects 
-          image={Proj1} 
-          link=""
-          heading="Still Working" 
-          description="In Progress..."/>
-        <Projects 
+          description="In Progress..."/> */}
+        {/* <Projects 
           image={Proj1} 
           link=""
           heading="Still Working" 

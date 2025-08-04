@@ -45,6 +45,7 @@ footer{
 .left-footer{
     display: grid;
     grid-template-rows: 50px auto;
+    gap: 10px;
     justify-items: left;
 
 }
