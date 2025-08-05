@@ -7,6 +7,7 @@ import Proj2 from './components/images/proj2.png';
 import Proj3 from './components/images/proj3.png';
 import Proj4 from './components/images/proj4.png';
 import Proj5 from './components/images/proj5.png';
+import Proj6 from './components/images/proj6.png';
 
 
 import './App.css'
@@ -46,11 +47,11 @@ function App() {
           link="https://staticweatherapp.vercel.app/"
           heading="Static Weather App" 
           description="Tells you weather from it's static database"/>
-        {/* <Projects 
-          image={Proj1} 
-          link=""
-          heading="Still Working" 
-          description="In Progress..."/> */}
+        <Projects 
+          image={Proj6} 
+          link="https://random-jokes-ivory-iota.vercel.app/"
+          heading="Random Jokes" 
+          description="Shows random jokes on programming"/>
       </div>
       
       <Footer />
