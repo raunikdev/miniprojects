@@ -52,6 +52,11 @@ function App() {
           link="https://random-jokes-ivory-iota.vercel.app/"
           heading="Random Jokes" 
           description="Shows random jokes on programming"/>
+          <Projects 
+          image={Proj6} 
+          link="https://dynamic-weather-app-inky.vercel.app/"
+          heading="dyanamic weather app" 
+          description="Tells the weather"/>
       </div>
       
       <Footer />
