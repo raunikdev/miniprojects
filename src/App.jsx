@@ -8,6 +8,7 @@ import Proj3 from './components/images/proj3.png';
 import Proj4 from './components/images/proj4.png';
 import Proj5 from './components/images/proj5.png';
 import Proj6 from './components/images/proj6.png';
+import Proj7 from './components/images/proj7.png';
 
 
 import './App.css'
@@ -19,6 +20,11 @@ function App() {
       <Header />
       <h1 className="project-title" id="projects">Mini Projects: Mostly React</h1>
       <div className="projects-app">
+        <Projects 
+          image={Proj7} 
+          link="https://dynamic-weather-app-inky.vercel.app/"
+          heading="Dyanamic Weather App" 
+          description="Tells the weather"/>
         <Projects 
           image={Proj1} 
           link="https://cardbuilder-six.vercel.app/"
@@ -52,11 +58,7 @@ function App() {
           link="https://random-jokes-ivory-iota.vercel.app/"
           heading="Random Jokes" 
           description="Shows random jokes on programming"/>
-          <Projects 
-          image={Proj6} 
-          link="https://dynamic-weather-app-inky.vercel.app/"
-          heading="dyanamic weather app" 
-          description="Tells the weather"/>
+          
       </div>
       
       <Footer />
